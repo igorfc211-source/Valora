@@ -3,9 +3,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://valora.digital"),
-  title: "Valora | Automação Inteligente e Sistemas Comerciais",
+  title: "Valora | Landing Pages, CRM & Automação",
   description:
-    "CRM e automação com IA para responder rápido, qualificar oportunidades e acompanhar clientes do primeiro contato ao pós-venda.",
+    "Landing pages profissionais, CRM e automação com IA. A Valora conecta presença digital e processo comercial, com atendimento direto de Igor França.",
   keywords: [
     "Valora",
     "aquisição comercial",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
   authors: [{ name: "Valora" }],
   creator: "Valora",
   openGraph: {
-    title: "Valora | Automação Inteligente e Sistemas Comerciais",
+    title: "Valora | Landing Pages, CRM & Automação",
     description:
-      "Automação, IA e integrações para atendimento, qualificação e processos comerciais mais consistentes.",
+      "Design com intenção. Landing pages, CRM e automação para conectar sua presença digital ao próximo passo comercial.",
     url: "https://valora.digital",
     siteName: "Valora",
     locale: "pt_BR",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Valora | Automação Inteligente e Sistemas Comerciais",
+    title: "Valora | Landing Pages, CRM & Automação",
     description:
       "Automação, agentes de IA e integração de sistemas para operações comerciais e atendimento.",
   },
@@ -51,6 +51,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-
-

@@ -1,4 +1,4 @@
-export const contactEmail = process.env.NEXT_PUBLIC_VALORA_CONTACT_EMAIL ?? "";
+export const contactEmail = process.env.NEXT_PUBLIC_VALORA_CONTACT_EMAIL || "valora211@gmail.com";
 
 export const faqs = [
   { q: "A solução funciona com as ferramentas que já utilizo?", a: "Depende das APIs, permissões, custos e limitações de cada ferramenta. No diagnóstico, avaliamos o que pode ser conectado e quais alternativas fazem sentido." },

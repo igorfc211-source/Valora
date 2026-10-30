@@ -1,5 +1,5 @@
 const MAX_BODY_BYTES = 12_000;
-const allowedChallenges = new Set(["Atendimento lento", "Qualificação de leads", "Agendamento", "Integração de ferramentas", "Automação de tarefas", "Organização do CRM", "Outro"]);
+const allowedChallenges = new Set(["Criar ou melhorar minha landing page", "Atendimento lento", "Qualificação de leads", "Agendamento", "Integração de ferramentas", "Automação de tarefas", "Organização do CRM", "Outro"]);
 
 function clean(value: unknown, maxLength: number) {
   return typeof value === "string" ? value.trim().slice(0, maxLength) : "";
@@ -45,4 +45,3 @@ export async function POST(request: Request) {
   } catch { return Response.json({ error: "Não foi possível encaminhar a solicitação." }, { status: 502 }); }
   return Response.json({ ok: true }, { status: 201 });
 }
-

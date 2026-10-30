@@ -67,7 +67,7 @@ export default function Header() {
         >
           <a href="#" className="group flex items-center gap-3" aria-label="Inicio Valora">
               <span className="relative grid size-10 place-items-center overflow-hidden rounded-xl bg-[#0b0d0c] transition-transform duration-300 group-hover:scale-[1.03]">
-              <Image src={theme === "dark" ? "/images/logo/logo1.png" : "/images/logo/logoLight.png"} alt="" width={532} height={264} className="size-full object-contain" />
+              <Image src={theme === "dark" ? "/images/logo/valora-symbol-light-sem-fundo.png" : "/images/logo/valora-symbol-light-sem-fundo.png"} alt="" width={532} height={264} className="size-full object-contain" />
             </span>
             <span className="flex flex-col leading-none">
               <span className={`text-sm font-semibold tracking-[0.06em] ${themeAware("text-white")}`}>
