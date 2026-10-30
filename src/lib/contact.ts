@@ -6,4 +6,4 @@ export const valoraContact = {
   instagramLabel: "@valora.to",
 };
 
-export const whatsappHref = `https://wa.me/${valoraContact.whatsapp}?text=${encodeURIComponent("Olá, Igor! Gostaria de conversar sobre um projeto com a Valora.")}`;
+export const whatsappHref = `https://wa.me/${valoraContact.whatsapp}?text=${encodeURIComponent("Olá, Igor! Tudo bem? Conheci a Valora pelo site e gostaria de conversar para saber mais.")}`;

@@ -16,7 +16,7 @@ export default function ConversationDemo() {
           <h2 id="conversation-title">Uma mensagem chega.<br/><em>O processo já sabe<br/>como continuar.</em></h2>
           <p>A triagem inteligente reconhece o pedido, pergunta o que falta e organiza o contexto antes do encaminhamento.</p>
           <p>Sua equipe entra na conversa com as informações certas para avançar. Sem pedir tudo de novo.</p>
-          <a className="text-link" href="#diagnostico">Desenhar um fluxo para meu negócio <ArrowRight size={16}/></a>
+          <a className="text-link" href="#contato">Desenhar um fluxo para meu negócio <ArrowRight size={16}/></a>
         </div>
         <div className="conversation-window" aria-label="Exemplo ilustrativo de conversa comercial no WhatsApp">
           <div className="conversation-header"><span className="conversation-avatar"><MessageCircle size={21}/></span><div><strong>Atendimento comercial</strong><span>Exemplo de triagem com IA</span></div><span className="conversation-channel">WHATSAPP</span></div>
